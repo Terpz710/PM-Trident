@@ -27,6 +27,6 @@ class EntityManager {
                 throw new SavedDataLoadingException("Trident Item is invalid");
             }
             return new ThrownTrident(EntityDataHelper::parseLocation($nbt, $world), $item, null, $nbt);
-        }, ['Trident', 'ThrownTrident', 'minecraft:trident' , 'minecraft:trown_trident'], EntityLegacyIds::TRIDENT);
+        }, ['Trident', 'ThrownTrident', 'minecraft:trident' , 'minecraft:trown_trident']);
     }
 }
