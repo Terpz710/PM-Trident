@@ -1,11 +1,12 @@
 name: Trident
 main: TheNote\PMTrident\Main
-version: 2.0.1
+version: 2.0.2
 api:
-  - 4.0.0
+  - 5.0.0
 author: TheNote
-mcpe-protocol: 554
 authors:
   #Thanks to the old Code!
   - CortexPE
+  #Updated to PM5
+  - Terpz710
 description: Add Trident
